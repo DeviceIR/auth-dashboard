@@ -1,0 +1,23 @@
+.btn {
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: transform 0.06s ease, opacity 0.2s;
+
+  color: #fff;
+  background-color: #111827;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1.2px;
+  border: 1px solid white;
+  margin: 0 8rem;
+  padding: 2px 4px;
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  &:active {
+    transform: translateY(1px);
+  }
+}

@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+  padding: 2rem;
+}
+
+.card {
+  background-color: #111827;
+  color: #f3f4f6;
+  font-size: 24px;
+  border-radius: 1.25rem;
+  padding: 4rem 8rem;
+  max-width: 550px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 10, 0, 0.8);
+
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+  }
+
+  p {
+    color: #f3f4f6;
+    margin: 0.5rem 0;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    &:first-of-type {
+      font-weight: 700;
+      font-size: 18px;
+      color: #f3f4f6;
+    }
+  }
+}
+
+.avatar {
+  border-radius: 50%;
+  // margin-top: 1rem;
+  border: 3px solid #e5e7eb;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  margin: 24px auto 0 auto;
+}
